@@ -1,0 +1,30 @@
+[submodule "SodiumShared"]
+	path = SodiumShared
+	url = https://github.com/muradkarakas/SodiumShared.git
+[submodule "Sodium-Setup"]
+	path = Sodium-Setup
+	url = https://github.com/muradkarakas/Sodium-Setup.git
+[submodule "SodiumServer"]
+	path = SodiumServer
+	url = https://github.com/muradkarakas/SodiumServer.git
+[submodule "SodiumExtension"]
+	path = SodiumExtension
+	url = https://github.com/muradkarakas/SodiumExtension.git
+[submodule "DBInt-MySql"]
+	path = DBInt-MySql
+	url = https://github.com/muradkarakas/DBInt-MySql.git
+[submodule "SodiumDebugger"]
+	path = SodiumDebugger
+	url = https://github.com/muradkarakas/SodiumDebugger.git
+[submodule "DBInt"]
+	path = DBInt
+	url = https://github.com/muradkarakas/DBInt.git
+[submodule "DBInt-Postgresql"]
+	path = DBInt-Postgresql
+	url = https://github.com/muradkarakas/DBInt-Postgresql.git
+[submodule "DBInt-Oracle"]
+	path = DBInt-Oracle
+	url = https://github.com/muradkarakas/DBInt-Oracle.git
+[submodule "DebuggerAdaptor"]
+	path = DebuggerAdaptor
+	url = https://github.com/muradkarakas/DebuggerAdaptor.git
