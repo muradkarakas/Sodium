@@ -28,3 +28,6 @@
 [submodule "DebuggerAdaptor"]
 	path = DebuggerAdaptor
 	url = https://github.com/muradkarakas/DebuggerAdaptor.git
+[submodule "DBInt-SqlServer"]
+	path = DBInt-SqlServer
+	url = https://github.com/muradkarakas/DBInt-SqlServer.git
