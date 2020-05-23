@@ -1,19 +1,15 @@
 # Sodium
 
-How to install
+Follow the steps below in order to download Sodium source code 
 
 * Open a new console windows 
 
-  Press "Start + R" and type "cmd" then enter.
+  Press "Start + R" and type "cmd" then enter
 
-* Create a folder named "Sodium" in C: drive root folder.
+* Move to root directory of C: drive
 
-   mkdir c:\Sodium
-   
-* Change to current directory 
-
-   cd c:\Sodium
-   
+   cd c:\
+  
 * Run the command below to download all Sodium projects at once.
 
   git clone --recursive https://github.com/muradkarakas/Sodium.git
