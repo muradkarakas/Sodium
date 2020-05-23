@@ -16,7 +16,7 @@ Follow the steps below in order to download Sodium source code
 
   `git clone --recursive https://github.com/muradkarakas/Sodium.git`
    
-# Sodium C Source Development
+# Sodium Development (C Language)
 
 * In order to compile all C projects, you must download and install a few more applications listed below.
 
@@ -34,7 +34,7 @@ Follow the steps below in order to download Sodium source code
 
 * If you get `library/dll file not found` message during link, please modify project settings according to database library paths.
 
-# Sodium Debug Adaptor Protocol Development 
+# Sodium Debug Adaptor Protocol Development (JavaScript)
 
 Sodium has Debug Adaptor Protocol implementation for VS Code.
 
