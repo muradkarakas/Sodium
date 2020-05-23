@@ -2,15 +2,15 @@
 
 Follow the steps below in order to download Sodium source code 
 
-* Open a new console windows 
+* Open a new console windows. Press "Start + R" and type the command below then clik Ok.
 
-  Press "Start + R" and type "cmd" then enter
+  `cmd`
 
 * Move to root directory of C: drive
 
-   cd c:\
+   `cd c:\`
   
 * Run the command below to download all Sodium projects at once.
 
-  git clone --recursive https://github.com/muradkarakas/Sodium.git
+  `git clone --recursive https://github.com/muradkarakas/Sodium.git`
    
