@@ -18,23 +18,21 @@ Follow the steps below in order to download Sodium source code
    
 # Sodium C Source Development
 
-Sodium currently has 9 C projects.  
+* In order to compile all C projects, you must download and install a few more applications listed below.
 
-* Find and open C:\Sodium\Sodium.sln file with Visual Studio.
-
-* In order to compile all C projects, you must download and install a few more applications listed below. (Download 64Bit version)
-
-  * Oracle Database Express Edition (XE)
-  * PostgreSQL 
-  * MySql Database Server
-  * MS Sql Server
-  * Redis Server
+  * Oracle Database Express Edition (XE) 64Bit 
+  * PostgreSQL Datavase 64Bit
+  * MySql Database Server 64Bit
+  * MS Sql Server 64Bit
+  * Redis Server 64Bit
 
 * Add `C:\Sodium\Sodium-Setup` path to the system `PATH` environment variable.
 
+* Add database libray paths to the system `PATH` environment variable.
+
 * Run Visual Studio as administrator. Then find and open `c:\Sodium\Sodium.sln` solution file.
 
-* Maybe you need to modify some project settings according to database library path.
+* If you get `library/dll file not found` message during link, please modify project settings according to database library paths.
 
 # Sodium Debug Adaptor Protocol Development 
 
