@@ -30,7 +30,9 @@ Follow the steps below in order to download Sodium source code
 
 * Add database libray paths to the system `PATH` environment variable.
 
-* Run Visual Studio as administrator. Then find and open `c:\Sodium\Sodium.sln` solution file.
+* Run Visual Studio 2019 Community Edition as administrator. Then find and open `c:\Sodium\Sodium.sln` solution file.
+
+* Compile and link in `Debug` or `Release` profile with 64Bit CPU architecture.
 
 * If you get `library/dll file not found` message during link, please modify project settings according to database library paths.
 
