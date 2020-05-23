@@ -2,6 +2,8 @@
 
 Follow the steps below in order to download Sodium source code 
 
+* If you do not have `git` installed on your system. Download it from https://git-scm.com/download/win
+
 * Open a new console window. (Press `Start + R` and type the command below then click Ok.)
 
   `cmd`
