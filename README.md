@@ -20,16 +20,16 @@ Follow the steps below in order to download Sodium source code
 
 * In order to make full compile, you must download and install a few more applications listed below:
 
-- Oracle Database Express Edition (XE) (64Bit)
+** Oracle Database Express Edition (XE) (64Bit)
   https://www.oracle.com/database/technologies/xe-downloads.html
   
-- PostgreSQL 
+** PostgreSQL 
   https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 
-- MySql Database Server
+** MySql Database Server
   https://dev.mysql.com/downloads/mysql/
   
-- MS Sql Server
+** MS Sql Server
   
 
 
