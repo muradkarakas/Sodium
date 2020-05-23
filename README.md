@@ -34,7 +34,7 @@ Follow the steps below in order to download Sodium source code
 
 * Compile and link in `Debug` or `Release` profile with 64Bit CPU architecture.
 
-* If you get `library/dll file not found` message during link, please modify project settings according to database library paths.
+* If you get `library/dll file not found` error message during linkage, please modify project settings according to database library paths.
 
 # Sodium Debug Adaptor Protocol Development (JavaScript)
 
