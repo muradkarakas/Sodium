@@ -1,4 +1,4 @@
-# Sodium
+# Sodium Source Download
 
 Follow the steps below in order to download Sodium source code 
 
@@ -16,6 +16,10 @@ Follow the steps below in order to download Sodium source code
 
   `git clone --recursive https://github.com/muradkarakas/Sodium.git`
    
+# Sodium C Source Development
+
+Sodium currently has 9 C projects.  
+
 * Find and open C:\Sodium\Sodium.sln file with Visual Studio.
 
 * In order to compile all C projects, you must download and install a few more applications listed below. (Download 64Bit version)
@@ -31,6 +35,10 @@ Follow the steps below in order to download Sodium source code
 * Run Visual Studio as administrator. Then find and open `c:\Sodium\Sodium.sln` solution file.
 
 * Maybe you need to modify some project settings according to database library path.
+
+# Sodium Debug Adaptor Protocol Development 
+
+Sodium has Debug Adaptor Protocol implementation for VS Code.
 
 * Additional to the `Sodium C Projects`, if you want to compile `Sodium Debug Adaptor` for Visual Studio Code, you must also download Visual Studio Code. Find and open `C:\Sodium\DebuggerAdaptor` folder with VS Code application.
 
