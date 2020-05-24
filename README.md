@@ -1,6 +1,4 @@
-# Sodium Language
-
-# Sodium Home Page
+# Sodium Development
 
 ## What is Soduim? 
 
@@ -80,6 +78,8 @@ void button_clicked() {
 * **Absolutely free**
 * **Support all major browsers**
 * **No character encoding problem. Works well with database/client language/territory settings**
+
+
 Please visit the Sodium Langauge Home Page. 
 You'll find the answers of that questions; 
 * What is Sodium ?
