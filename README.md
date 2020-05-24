@@ -16,7 +16,7 @@ Frontend developer, C developer, database developer etc. are needed. If you want
     * learn some advanced topics like transaction management, dependency injection, persistence, object-relational mapping etc.
     * upgrade frameworks/libraries/third party add-ons etc
     * make configuration You should try Sodium.
-* [Native SQL support](language-reference/native-sql-support.md) You can write SQL commands/scripts in code behind file as a first class native language commands. Unlike LINQ, you do not need to learn a special syntax for SQL commands. All syntax are accepted if it is a valid for database server. For more information [Native SQL support](language-reference/native-sql-support.md). Example: 
+* [Native SQL support](https://muradkarakas.gitbook.io/sodium_documentation/language-reference/native-sql-support) You can write SQL commands/scripts in code behind file as a first class native language commands. Unlike LINQ, you do not need to learn a special syntax for SQL commands. All syntax are accepted if it is a valid for database server. For more information [Native SQL support](https://muradkarakas.gitbook.io/sodium_documentation/language-reference/native-sql-support). Example: 
 
 ```text
 void button_clicked() {
