@@ -80,12 +80,6 @@ void button_clicked() {
 * **No character encoding problem. Works well with database/client language/territory settings**
 
 
-Please visit the Sodium Langauge Home Page. 
-You'll find the answers of that questions; 
-* What is Sodium ?
-* What is Sodium language features ?
-* Where is the "Hello World" demo application ?
-* What is the Installation Steps ?
-* and more ...
+For more information, please visit the Sodium Langauge Home Page:
 
 https://muradkarakas.gitbook.io/sodium_documentation/
