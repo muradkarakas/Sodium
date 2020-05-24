@@ -4,7 +4,7 @@
 
 Sodium is a new Domain-Specific Language \(DSL\) especially designed for creating/developing state of the art web based business applications. It has been under development at the moment but ready to be evaluated by developers.
 
-Frontend developer, C developer, database developer etc. are needed. If you want be a contributer, please contact. \([About Me](about-me.md)\).
+Frontend developer, C developer, database developer etc. are needed. If you want be a contributer, please contact. \([About Me](https://app.gitbook.com/@muradkarakas/s/sodium_documentation/about-me)\).
 
 ## What is the Motivation To Develop a New Software Language ?
 
