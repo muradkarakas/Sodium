@@ -20,8 +20,7 @@ Frontend developer, C developer, database developer etc. are needed. If you want
 
 ```text
 void button_click_select() {
- 
-    /* Select statement */
+
     rsCounties = select county_name as label,
                         county_id as value
                  from
@@ -35,12 +34,14 @@ void button_click_select() {
 ```
 ```text
 void button_clicked_insert(){
+
     insert into hr.deps (DEP_ID, DEP_NAME) values (htsql_test.nextval, :depname)
 }
 ```
 
 ```text
 void button_clicked_update(){
+
     update hr.deps
     set
         dep_name = 'HR'
@@ -51,6 +52,7 @@ void button_clicked_update(){
 
 ```text
 void button_clicked_delete(){
+
     delete
         hr.deps
     where
@@ -60,12 +62,14 @@ void button_clicked_delete(){
 
 ```text
 void button_clicked_sub_query(){
+
      delete hr.emps
      where  dep_id in (select dep_id from deps where region_id like '%' || :param || '%');
 }
 ```
 ```text
 void button_clicked_anonymus_block(){
+
     begin
         for i in (select * from hr.emps e where e.retired = 'F') loop
             calculate_salary(i.emp_id);
