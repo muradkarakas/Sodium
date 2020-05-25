@@ -82,8 +82,8 @@ void button_clicked_anonymus_block(){
 * **Server and Client Side support**  current web based languages/frameworks are designed to run either on server or client. Sodium is designed to run on both. All things are handled Sodium engine transparently.
 * **No dependency**  all features written on this list are provided without third-party plug-ins, frameworks, code libraries, etc.
 * **Easy to learn** 
-  **On server**: you do not need to learn some advanced topics/libraries such as Object Relational Mappings \(ORM\) tools, dependency injection, transaction management, user interface libraries, design patterns, etc.
-  **On client:** no javascript knowledge required, no CSS knowledge required, No library/framework required \(JQuery, AngularJS, ExtJs, bootstrap for mobile support\)
+  **On server** you do not need to learn some advanced topics/libraries such as Object Relational Mappings \(ORM\) tools, dependency injection, transaction management, user interface libraries, design patterns, etc.
+  **On client** no javascript knowledge required, no CSS knowledge required, No library/framework required \(JQuery, AngularJS, ExtJs, bootstrap for mobile support\)
 * **Native cached memory database support**
 * **Easy to maintain** all requirements are handled in a standard way so developers easily find the code blocks to make corrections.
 * **Quick and Easy Installation** no database repository needed No ODBC or OLE DB installation/configuration needed.
