@@ -19,7 +19,7 @@ Frontend developer, C developer, database developer etc. are needed. If you want
 * [Native SQL support](https://muradkarakas.gitbook.io/sodium_documentation/language-reference/native-sql-support) you can write SQL commands/scripts in code behind file as a first class native language commands. Unlike LINQ, you do not need to learn a special syntax for SQL commands. All syntax are accepted if it is a valid for database server. For more information [Native SQL support](https://muradkarakas.gitbook.io/sodium_documentation/language-reference/native-sql-support). Example: 
 
 ```text
-void button_clicked() {
+void button_click_select() {
  
     /* Select statement */
     rsCounties = select county_name as label,
@@ -31,28 +31,41 @@ void button_clicked() {
     if (rsCounties) then
         message(rsCounties.label);
     end if;
- 
-    /* Insert statement */
-    insert into hr.deps (DEP_ID, DEP_NAME) values (htsql_test.nextval, :depname);
- 
-    /* Update statement */
+}
+```
+```text
+void button_clicked_insert(){
+    insert into hr.deps (DEP_ID, DEP_NAME) values (htsql_test.nextval, :depname)
+}
+```
+
+```text
+void button_clicked_update(){
     update hr.deps
     set
         dep_name = 'HR'
     where
         dep_name like '%'|| :col || '%';
- 
-    /* Delete statement */
+}
+```
+
+```text
+void button_clicked_delete(){
     delete
         hr.deps
     where
         dep_name = :dep_name;
- 
-    /*  Sub query */
-    delete hr.emps
-    where  dep_id in (select dep_id from deps where region_id like '%' || :param || '%');
- 
-    /* PL/SQL Anonymous block */
+}
+```
+
+```text
+void button_clicked_sub_query(){
+     delete hr.emps
+     where  dep_id in (select dep_id from deps where region_id like '%' || :param || '%');
+}
+```
+```text
+void button_clicked_anonymus_block(){
     begin
         for i in (select * from hr.emps e where e.retired = 'F') loop
             calculate_salary(i.emp_id);
@@ -60,6 +73,7 @@ void button_clicked() {
     end;
 }
 ```
+
 
 * **Server and Client Side support**  current web based languages/frameworks are designed to run either on server or client. Sodium is designed to run on both. All things are handled Sodium engine transparently.
 * **No dependency**  all features written on this list are provided without third-party plug-ins, frameworks, code libraries, etc.
